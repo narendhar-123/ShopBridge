@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NLog" Version="4.7.10" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShopBridge.Common\ShopBridge.Common.csproj" />
+    <ProjectReference Include="..\ShopBridge.DependencyResolver\ShopBridge.DependencyResolver.csproj" />
+    <ProjectReference Include="..\ShopBridge.IService\ShopBridge.IService.csproj" />
+    <ProjectReference Include="..\ShopBridge.Model\ShopBridge.Model.csproj" />
+  </ItemGroup>
+
+
+</Project>
